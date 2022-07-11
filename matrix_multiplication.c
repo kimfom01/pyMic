@@ -24,7 +24,7 @@ void multiplication(const double *A, const double *B, double *C, const long int 
 const int N = 244;
 void main()
 {
-	int i, j;
+	int i, j, k;
     int a[N][N];
     int b[N][N];
     int c[N][N];
@@ -46,7 +46,7 @@ void main()
     {
     	for(j = 0; j < N; j++)
     	{
-    		for(int k = 0; k < N; k++)
+    		for(k = 0; k < N; k++)
 			{
 	            c[i][j] += a[i][k] * b[k][j];
 			}
